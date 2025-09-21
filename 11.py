@@ -1,9 +1,8 @@
 print('Введите 1 число')
-a = input()
+a = int(input(), 2)
 print('Введите 2 число')
-b = input()
-a = int(a, 10)
-b = int(b, 10)  
+b = int(input(), 2)
 v = a + b
+v = bin(v)
+v = (v[2:])
 print('Их сумма равна', v)
-
